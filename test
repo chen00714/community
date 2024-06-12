@@ -1,0 +1,51 @@
+<html>
+ <head>
+    <title>传播系网站</title>
+ </head>   
+ <body>
+    王泠萱个人网站
+    <p>Ling Xuan Wang</p>
+    <p><i>将进酒</i> <b>杯莫停</b></p>
+    <table widch="500" border="1">
+      <tr>
+       <th>消费项目</th>
+       <th>吃谷</th>
+       <th>购物</th>
+       <th colspan="2">吃饭</th>
+      </tr>
+      <tr>
+         <td>一月</td>
+         <td>1800</td>
+         <td>200</td>
+         <td>500</td>
+         <td>200 </td>
+      </tr>
+    </table>
+<ul style="list-style-type: circle;">
+   <li>王泠萱</li>
+   <li>寝室长</li>
+   <li>一个受到周围人信赖和重视的人</li>
+</ul>
+<br>
+<form>
+   <fieldset>
+      <legend><b>王泠萱的同学录</b></legend>
+   关系<br><input type="text" id="关系" name="关系"><br>
+   <br>
+   姓名<br><input type="password" name="password"><br>
+   <br>
+   一般
+ <input type="range" name="score" value="喜欢"> 喜欢<br>
+
+</form>
+<form action="demo-form.php">
+   认识日期：<input type="date" name="day" value="day">
+<input type="submit">
+</form>
+<br>
+<br>
+<textarea name="message" rows="10" cols="50">
+写下你想对我说的话吧！
+</textarea> 
+   </body>
+</html>
